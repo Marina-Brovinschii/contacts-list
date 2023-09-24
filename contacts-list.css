@@ -1,0 +1,195 @@
+body {
+    background-color: #4682B4;
+    padding: 5em 0 0 5em;
+}
+.contacts .top {
+    background-color: bisque;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: 1em 1em 0 0;
+}
+.icon-chat {
+    margin-top: -0.6em;
+    margin-left: 1.1em;
+    margin-right: 1em;
+    vertical-align: middle;
+}
+.icon-pen {
+    margin-left:18.5em;
+}
+.contacts {
+    width: 500px;
+    background-color: white;
+    border-radius: 1em;
+}
+.contacts input {
+    border: none;
+    font-size: 0.5em;
+    padding: 1em;
+    width: 54em;
+    padding-left: 3em;
+    background-image: url(images/search-24-icon.png);
+    background-size: 2em;
+    background-position: left;
+    background-repeat: no-repeat;
+    border-radius: 10em;
+    margin-left: 2em;
+    margin-top: 2em;
+    background-color: rgb(206, 204, 204);
+}
+.contacts .block-remove {
+    display:inline-block;
+    width: 13em;
+    transform: translateX(-55em) translateY(-1.4em);
+    opacity: 0;
+}
+.contacts figure:target .block-remove {
+    opacity: 1;
+}
+.contacts figure:target .block-remove{
+    transform: translateX(28em);
+    transition: 1.5s;
+}
+.contacts .block-remove a {
+    text-decoration: none;
+    font-family:Calibri, sans-serif;
+    font-size: 1.2em;
+    color: red;
+    background-color:rgb(211, 210, 210);
+    border-radius: 0.5em;
+    padding: 0 0.5em;
+    margin-left: 1em;
+}
+.contacts .block-remove a:hover {
+    background-color: rgb(164, 164, 164);
+}
+.contacts .point {
+    display: inline-block;
+    margin-right: -14em;
+}
+.contacts .point img{
+    width: 2em;
+    height: 2em;
+    border-radius: 1em;
+    background-color: transparent;
+}
+.contacts .point a {
+    text-decoration: none;
+}
+.contacts ul {
+    padding: 0;
+    padding-left: 1em;
+}
+.contacts ul li {
+    list-style: none;
+}
+.contacts ul figure {
+    display: table-row;
+}
+.contacts ul figcaption {
+    display: table-cell;
+    padding-right: 1em;
+}
+.contacts figcaption img {
+    width: 4em;
+    height: 4em;
+    background-color:bisque;
+    border-radius: 2em;
+    margin-left: -1em;
+}
+.contacts figcaption span.off{
+    width: 0.5em;
+    height: 0.5em;
+    border-radius: 0.5em;
+    transform: translateX(2em) translateY(-1em);
+    display: block;
+}
+.contacts figcaption span.on {
+    width: 0.5em;
+    height: 0.5em;
+    border-radius: 0.5em;
+    transform: translateX(2em) translateY(-1em);
+    display: block;
+}
+.status.off {
+    border: 0.1em solid grey;
+    background-color: darkgrey;
+}
+.status.on {
+    border: 0.1em solid green;
+    background-color: darkgreen;
+}
+.contacts .name {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.5em; 
+}
+.contacts .info {
+    vertical-align: middle;
+    display: table-cell;
+}
+.contacts .info .chat {
+    width: 10em;
+    display: inline-block;
+}
+.contacts .add {
+    vertical-align: middle;
+}
+.contacts .add a {
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: Impact, sans-serif;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 1em;
+    background-color: gray;
+    display: inline-block;
+    text-align: center;
+    line-height: 1.5em;
+    margin-left: 5em;
+    color:darkblue;
+}
+.contacts .add a:hover {
+    background-color: rgb(88, 88, 88);
+    color: white;
+}
+.contacts .add-option {
+    width: 8em;
+    padding-bottom: 1.5em;
+    padding-left: 2em;
+    opacity: 0;
+}
+.contacts figure .add-option .friends {
+    padding-left: 1em;
+    padding-right: 3em;
+}
+.contacts figure .add-option a {
+    display: table-cell;
+}
+.contacts figure .add-option img{
+    width: 2.2em;
+    height: 2.2em;
+    background-color: gray;
+}
+.contacts figure .add-option img:hover {
+    background-color: rgb(194, 193, 193);
+}
+.contacts figure:target .add-option {
+    opacity: 1;
+}
+.contacts figure:target figcaption {
+    transform: translateX(-23em);
+    transition: 1.5s;
+}
+.contacts .bottom {
+    display: table-row;
+    background-color: bisque;
+}
+.contacts .bottom-img {
+    display: table-cell;
+}
+.contacts .bottom-img img {
+    margin-left: 3.2em;
+    margin-right: 3.11em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
