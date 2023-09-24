@@ -43,12 +43,18 @@ body {
     transform: translateX(-55em) translateY(-1.4em);
     opacity: 0;
 }
-.contacts figure:target .block-remove {
+.contacts li:target .block-remove {
     opacity: 1;
-}
-.contacts figure:target .block-remove{
-    transform: translateX(28em);
+    transform: translateX(-5em);
     transition: 1.5s;
+}
+.contacts li:target figure{
+    transform: translateX(22em);
+    transition: 1.5s;
+}
+.contacts li:target figure>.hidden {
+    opacity: 0;
+    transition: 1s;
 }
 .contacts .block-remove a {
     text-decoration: none;
